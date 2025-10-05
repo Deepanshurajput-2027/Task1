@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main,
+html {
+  height: 100%;
+  width: 100%;
+}
+.top {
+  background-color: #141031;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.self {
+  color: white;
+  padding: 50px 150px 20px 150px;
+}
+.self h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: poppins Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.self h3 {
+  padding: 20px 0px 0px 70px;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: poppins Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+}
+.maincontent {
+  background-color: rgb(193, 210, 215);
+  /* padding: 30px auto 30px auto; */
+  
+ 
+}
+.maincontent h1 {
+  text-transform: uppercase;
+}
+.maincontent p {
+  font-weight: lighter;
+}
+.aboutme,
+.edu,
+.skills,
+.projects,
+.contactme {
+  margin: 30px auto 30px auto;
+  text-align: center;
+  border-radius: 10px;
+  font-family: poppins Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 40px;
+}
+
+.aboutme {
+  background-color: rgb(170, 173, 173);
+  height: 200px;
+  width: 80%;
+  margin-top:0px;
+}
+.aboutme p {
+  padding-top: 20px;
+}
+.edu {
+  background-color: rgb(160, 198, 216);
+  height: 280px;
+  width: 80%;
+}
+.skills {
+  background-color: rgb(218, 218, 144);
+  height: 450px;
+  width: 80%;
+}
+.skills p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.projects {
+  background-color: rgb(211, 158, 226);
+  height: 400px;
+  width: 80%;
+}
+.projects p {
+  font-style: italic;
+}
+.contactme {
+  background-color: rgb(138, 220, 183);
+  height: 500px;
+  width: 80%;
+  margin-bottom: 0;
+}
+.footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  padding: 30px 0px 0px 0px;
+}
+
+.course {
+  height: 61px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 20px auto 20px auto;
+}
+.course p {
+  padding-top: 20px;
+  font-size: 20px;
+}
